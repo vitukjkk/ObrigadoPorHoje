@@ -40,6 +40,12 @@ header {
         width: 100%;
         background-color: var(--cor-primaria);
     }
+
+    a {
+        padding: 0;
+        margin: 0;
+        
+    }
 }
 /* 
 <img id="imgPrivacidade" class="imgIcons" src="assets/icons/privacidade.png">
@@ -56,6 +62,7 @@ body {
 
 main {
     padding: 0;
+    padding: 3rem;
     right: 0;
     max-width: 100%;
 }
