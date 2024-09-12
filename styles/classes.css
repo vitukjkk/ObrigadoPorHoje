@@ -1,0 +1,15 @@
+/* CLASSES */
+
+.divAsPessoasAgradecem {
+    display: flex;
+}
+
+.divOneAgradecimento {
+    border-right: 1px solid var(--cor-primaria);
+    padding: 1rem;
+}
+
+.imgIcons {
+    width: 2.5rem;
+    height: 2.5rem;
+}

@@ -1,0 +1,92 @@
+/* GLOBAL */
+
+:root {
+
+    /* FONTES */
+    --fonte-primaria: "Mulish", sans-serif;
+
+    /* CORES */
+    --cor-primaria: #060270;
+    --cor-secundaria: white;
+
+}
+
+* {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    bottom: 0;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: var(--cor-primaria);
+    }
+}
+/* 
+<img id="imgPrivacidade" class="imgIcons" src="assets/icons/privacidade.png">
+        <img id="imgLogoPrincipal" src="assets/images/logos/logo.png">
+        <img id="imgSobre" class="imgIcons" src="assets/icons/sobre.png">
+        <img id="imgComoFunciona" class="imgIcons" src="assets/icons/como funciona.png"> */
+
+
+body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+
+footer {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+input[type="text"] {
+    border-radius: .2rem;
+    border: 1px solid var(--cor-primaria);
+    width: calc(100% - 1.2rem);
+    height: 14rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+a, i {
+    font-weight: bold;
+}
+
+button {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    padding: .7rem;
+    margin: 1rem;
+}
